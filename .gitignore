@@ -123,3 +123,6 @@ pnpm-debug.log
 .theia
 
 .results
+
+# Local Netlify folder
+.netlify
