@@ -9,7 +9,7 @@ const app = express()
 app.use(json())
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
-const dbPath = join(__dirname, '../../cricketMatchDetails.db') // Adjust path for Netlify
+const dbPath = join(__dirname, './cricketMatchDetails.db') // Adjust path for Netlify
 
 let db
 
